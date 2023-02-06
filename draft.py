@@ -8,12 +8,11 @@
 """
 
 from django import models
-import hiromi.models
-from hiromi.commands import message, command, require_staff
-from hiromi.rooms import Room, bot_user
-from hiromi.tasks import Task, Schedule
 
-from mentorbot.models import MentoringRoomParticipant
+import hiromi.models
+from hiromi.commands import command, message, require_staff
+from hiromi.rooms import Room, bot_user
+from hiromi.tasks import Schedule, Task
 
 # models
 
