@@ -15,3 +15,17 @@ poetry run pytest
 ```
 
 ## Plan
+
+- Slack hello-world (handle command that sends message)
+- Discord hello-world
+- Commands
+- Tasks
+- Scheduler
+- Tasks with reminders until completed
+- Room management API
+- Messages with optional buttons
+- Permissions
+- Full mentorbot sample app
+- Teams hello-world
+- Handle webhooks
+- Send webhooks
