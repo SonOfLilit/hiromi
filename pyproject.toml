@@ -12,6 +12,9 @@ Django = "^4.0"
 pytest = "^5.2"
 pre-commit = "^3.0.4"
 
+[tool.poetry.group.slack.dependencies]
+slack-bolt = "^1.16.1"
+
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
